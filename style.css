@@ -1,0 +1,179 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+ *{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+ }
+.judul{
+    display: flex;
+    padding: 30px;
+    background: #000000;
+    color: white;
+    font-size: 25px;
+    
+}
+.judul h4{
+    position: relative;
+    right: 100px;
+    top: 60px;
+    font-size: 15px;
+}
+.judul2{
+    display: flex;
+    padding: 30px;
+    background: #000000;
+    color: white;
+    font-size: 25px;
+}
+.kategori .img1{
+    width: 100%;
+}
+.judul2 h4{
+    position: relative;
+    right: 100px;
+    top: 60px;
+    font-size: 15px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"]{
+    float: left;
+    padding: 40px;
+}
+
+.col-1 {width:  8.33%;}
+.col-2 {width:  16.66%;}
+.col-3 {width:  25%;}
+.col-4 {width:  33.33%;}
+.col-5 {width:  41.66%;}
+.col-6 {width:  50%;}
+.col-7 {width:  58.33%;}
+.col-8 {width:  66.66%;}
+.col-9{width:  75%;}
+.col-10{width:  83.33%;}
+.col-11{width:  91.66%;}
+.col-12{width:  100%;}
+
+.kategori{
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+
+.kategori h2{
+    margin-bottom: 20px;
+}
+
+.kategori ul{
+    list-style: none;
+    background: #F6F1F1;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.kategori ul a{
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black;
+    margin: 0 5px; 
+    padding: 10px 20px;
+    
+}
+
+.kategori ul li a:hover{
+    background: #19A7CE;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+                
+}
+
+.kategori .img1{
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.foto p{
+    position: relative;
+    bottom: 30px;
+    
+}
+.imgnews{
+    width: 100%;
+    border-radius: 10px;
+}
+.imgsport{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.hotnews h1{
+    padding: 0px;
+    font-size: 50px;
+
+}
+
+.hotnews p{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hotnews h5{
+    font-weight: lighter;
+}
+.olahraga h5{
+    font-weight: lighter;
+}
+.hotnews h5 a{
+    text-decoration: none;
+}
+.olahraga h5 a{
+    text-decoration: none;
+}
+.iklan{
+    padding: 20px;
+}
+
+.iklan.img{
+    width: 100%;
+    display: flex;
+    
+}
+.footer{
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-color: #146C94;
+}
+
+.lain.img1{
+    width: 100px;
+    display: flexbox;
+    
+}
+
+@media only screen and (max-width :900px){
+    .kategori {
+        width: 100%;
+        text-align: center;
+    }
+    .hotnews{
+       width: 100%;
+       font-size: 100%;
+    }
+    .iklan .img{
+        position: relative;
+        left: 80px;
+    }
+    .olahraga{
+        width: 100%;
+    }
+
+}
